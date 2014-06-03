@@ -20,16 +20,13 @@
 
   // Force all variable names to use either camelCase style or UPPER_CASE
   // with underscores.
-  "camelcase": true,
+  "camelcase": false,
 
   // Prohibit use of == and != in favor of === and !==.
   "eqeqeq": true,
 
   // Suppress warnings about == null comparisons.
   "eqnull": true,
-
-  // Enforce tab width of 2 spaces.
-  "indent": 2,
 
   // Prohibit use of a variable before it is defined.
   "latedef": true,
@@ -49,9 +46,36 @@
   // Warn when variables are defined but never used.
   "unused": true,
 
-  // Enforce line length to 80 characters
-  "maxlen": 80,
+  // This option requires you to always put curly braces around blocks in loops and conditionals.
+  "curly": true,
 
-  // Enforce placing 'use strict' at the top function scope
-  "strict": true
+  // This options prohibits overwriting prototypes of native objects such as Array, Date and so on.
+  "freeze": true,
+
+  // This option requires you to capitalize names of constructor functions.
+  "newcap": true,
+
+  // This option warns about "non-breaking whitespace" characters.
+  "nonbsp": true,
+
+  // This option suppresses warnings about the use of assignments in cases where comparisons are expected.
+  "boss": true,
+
+  // This option suppresses most of the warnings about possibly unsafe line breakings in your code.
+  "laxbreak": true,
+
+  // This option lets you set the max number of formal parameters allowed per function.
+  "maxparams": 4,
+
+  // This option lets you control how nested do you want your blocks to be.
+  "maxdepth": 3,
+
+  // Suppress warnings about unnecessary semicolons
+  "-W032": true,
+
+  // Suppress warnings about empty blocks
+  "-W035": true,
+
+  // Suppress warnings about redefining parameters
+  "-W004": true
 }
