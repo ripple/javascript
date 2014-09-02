@@ -1,4 +1,4 @@
-# Airbnb JavaScript Style Guide() {
+# Ripple JavaScript Style Guide() {
 
 *A mostly reasonable approach to JavaScript*
 
@@ -1524,7 +1524,7 @@
 
 (The MIT License)
 
-Copyright (c) 2014 Airbnb
+Copyright (c) 2014 Ripple Labs
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
