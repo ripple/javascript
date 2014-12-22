@@ -77,5 +77,8 @@
   "-W035": true,
 
   // Suppress warnings about redefining parameters
-  "-W004": true
+  "-W004": true,
+  
+  // Allow ES.next specific features such as `const`
+  "esnext" true
 }
