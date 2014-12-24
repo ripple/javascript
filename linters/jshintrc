@@ -37,9 +37,6 @@
   // Enforce use of single quotation marks for strings.
   "quotmark": "single",
 
-  // Prohibit trailing whitespace.
-  "trailing": true,
-
   // Prohibit use of explicitly undeclared variables.
   "undef": true,
 
@@ -51,9 +48,6 @@
 
   // This options prohibits overwriting prototypes of native objects such as Array, Date and so on.
   "freeze": true,
-
-  // This option requires you to capitalize names of constructor functions.
-  "newcap": true,
 
   // This option warns about "non-breaking whitespace" characters.
   "nonbsp": true,
@@ -70,15 +64,9 @@
   // This option lets you control how nested do you want your blocks to be.
   "maxdepth": 3,
 
-  // Suppress warnings about unnecessary semicolons
-  "-W032": true,
-
-  // Suppress warnings about empty blocks
-  "-W035": true,
-
   // Suppress warnings about redefining parameters
   "-W004": true,
-  
+
   // Allow ES.next specific features such as `const`
   "esnext" true
 }
