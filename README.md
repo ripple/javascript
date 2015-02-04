@@ -14,6 +14,19 @@ The Ripple Labs style guide is defined by the eslintrc file in this repository a
   - Assign methods to the prototype object, instead of overwriting the prototype with a new object. Overwriting the prototype makes inheritance impossible: by resetting the prototype you'll overwrite the base!
   - When attaching data payloads to events (whether DOM events or something more proprietary like Backbone events), pass a hash instead of a raw value. This allows a subsequent contributor to add more data to the event payload without finding and updating every handler for the event. For example, instead of:
 
+# Editor Configuration
+
+It is recommended that you configure your text editor to show linter errors while you are typing.
+
+## Sublime Text 3
+
+Note that Sublime Text can optionally be configured for vim or emacs key bindings.
+
+  - Copy eslintrc to ~/.eslintrc
+  - Install [Package Control](https://packagecontrol.io/installation)
+  - Install [SublimeLinter](http://www.sublimelinter.com/en/latest/installation.html#installing-via-pc)
+  - Install [SublimeLinter-contrib-eslint](https://packagecontrol.io/packages/SublimeLinter-contrib-eslint)
+
 # TODO: Write ESLint rules for
   - Never name a parameter `arguments`
   - Never assign `<Function>.prototype = ...`
