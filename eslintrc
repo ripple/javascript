@@ -147,9 +147,3 @@ rules:
   wrap-iife: 0
   wrap-regex: 0
   yoda: [2, 'never']
-ecmaFeatures:
-  blockBindings: true
-  defaultParams: true
-  forOf: true
-  generators: true
-  jsx: true
