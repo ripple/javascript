@@ -27,6 +27,14 @@ Note that Sublime Text can optionally be configured for vim or emacs key binding
   - Install [SublimeLinter](http://www.sublimelinter.com/en/latest/installation.html#installing-via-pc)
   - Install [SublimeLinter-contrib-eslint](https://packagecontrol.io/packages/SublimeLinter-contrib-eslint)
 
+## Jetbrains products (IDEA, WebStorm)
+
+https://www.jetbrains.com/webstorm/help/eslint.html
+
+  - `npm install -g eslint`
+  - Enable ESLint from `File > Settings > Languages and Frameworks > JavaScript > Code Quality Tools > ESLint`
+  - Point "ESLint package" to the installed eslint (osx default `/usr/local/lib/node_modules/eslint`)
+
 # TODO: Write ESLint rules for
   - Never name a parameter `arguments`
   - Never assign `<Function>.prototype = ...`
