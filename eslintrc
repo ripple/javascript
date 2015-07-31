@@ -5,6 +5,7 @@ env:
   amd: false
   mocha: true
   jasmine: false
+parser: babel-eslint
 rules:
   no-alert: 2
   no-array-constructor: 2
